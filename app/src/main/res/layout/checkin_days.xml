@@ -1,0 +1,256 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="410dp"
+            android:layout_height="285dp"
+            android:layout_marginTop="443dp"
+            android:background="#FEFFC3"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="350dp"
+                    android:layout_height="240dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout android:id="@+id/linearLayout2"
+                            android:layout_width="345dp"
+                            android:layout_height="60dp"
+                            android:layout_marginBottom="165dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <ImageButton android:id="@+id/day1"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day1"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/day1"/>
+
+                            <ImageButton android:id="@+id/day2"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day2"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/day2"/>
+
+                            <ImageButton android:id="@+id/day3"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day3"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/day3"/>
+
+                            <ImageButton android:id="@+id/day4"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day4"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/day4"/>
+
+                            <ImageButton android:id="@+id/day5"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day5"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/day5"/>
+
+                            <ImageButton android:id="@+id/day6"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day6"
+                                android:scaleType="centerInside" app:srcCompat="@drawable/day6"/>
+
+                            <ImageButton android:id="@+id/day7"
+                                android:layout_width="39dp"
+                                android:layout_height="55dp"
+                                android:layout_weight="1"
+                                android:background="@null"
+                                android:contentDescription="@string/checkin_day7"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/day7"/>
+                        </LinearLayout>
+
+                        <ImageView android:id="@+id/imageView15"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                            app:srcCompat="@drawable/line"/>
+
+                        <ImageView android:id="@+id/imageView24"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="290dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView15"
+                            app:srcCompat="@drawable/newres_logo"/>
+
+                        <ImageView android:id="@+id/imageView25"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+                            app:srcCompat="@drawable/line"/>
+
+                        <TextView android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/newres_checkin_word"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:layout_constraintStart_toEndOf="@+id/imageView24"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView15"/>
+
+                        <Button android:id="@+id/newCheckin"
+                            android:layout_width="44dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="60dp"
+                            android:background="@drawable/rescheckin_button_design"
+                            android:text="@string/go_to_word"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toTopOf="@+id/imageView25"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView14"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView15"/>
+
+                        <TextView android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:text="@string/X20_word"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toEndOf="@+id/imageView26"
+                            app:layout_constraintTop_toBottomOf="@+id/textView14"/>
+
+                        <ImageView android:id="@+id/imageView26"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="1dp"
+                            app:layout_constraintStart_toEndOf="@+id/imageView24"
+                            app:layout_constraintTop_toBottomOf="@+id/textView14"
+                            app:srcCompat="@drawable/water"/>
+
+                        <ImageView android:id="@+id/imageView27"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="290dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+                            app:srcCompat="@drawable/oldres_logo"/>
+
+                        <TextView android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/oldres_checkin_word"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:layout_constraintStart_toEndOf="@+id/imageView27"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView25"/>
+
+                        <TextView android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:text="@string/X10_word"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toEndOf="@+id/imageView28"
+                            app:layout_constraintTop_toBottomOf="@+id/textView17"/>
+
+                        <Button android:id="@+id/repeatCheckin"
+                            android:layout_width="44dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="60dp"
+                            android:background="@drawable/rescheckin_button_design"
+                            android:text="@string/go_to_word"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView17"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView25"/>
+
+                        <ImageView android:id="@+id/imageView28"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="1dp"
+                            app:layout_constraintStart_toEndOf="@+id/imageView27"
+                            app:layout_constraintTop_toBottomOf="@+id/textView17"
+                            app:srcCompat="@drawable/water"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+                <ImageButton android:id="@+id/closeBtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="360dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@null"
+                    android:contentDescription="@string/close_checkinday"
+                    android:scaleType="centerInside"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/close_button"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

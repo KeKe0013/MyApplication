@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/btn_up"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="52dp"
+        android:src="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/btn_down"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="52dp"
+        android:src="@drawable/down"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/slot_machine"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/slot_machine"/>
+
+    <ImageButton
+        android:id="@+id/close_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/wheel_close"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginTop="570dp"
+        android:background="@android:color/transparent"/>
+
+    <FrameLayout
+        android:id="@+id/frame_bar"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="352dp"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <com.example.myapplication.ImageViewScrolling.ImageViewScrolling
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</RelativeLayout>

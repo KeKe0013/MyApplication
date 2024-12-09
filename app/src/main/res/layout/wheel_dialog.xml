@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraintLayout">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/base"
+            android:background="@null"
+            app:layout_constraintBottom_toTopOf="@id/wheelImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="-380dp" />
+
+        <ImageView
+            android:id="@+id/wheelImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/wheel_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/pointerImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pointer"
+            app:layout_constraintBottom_toTopOf="@id/wheelImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="-25dp" />
+
+        <ImageButton
+            android:id="@+id/spinButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/spin_btn"
+            android:background="@null"
+            android:contentDescription="Spin"
+            app:layout_constraintTop_toTopOf="@id/wheelImageView"
+            app:layout_constraintBottom_toBottomOf="@id/wheelImageView"
+            app:layout_constraintStart_toStartOf="@id/wheelImageView"
+            app:layout_constraintEnd_toEndOf="@id/wheelImageView" />
+
+    <ImageButton
+        android:id="@+id/closeBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/wheel_close"
+        android:background="@null"
+        android:contentDescription="Spin"
+        app:layout_constraintBottom_toTopOf="@id/constraintLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="-645dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

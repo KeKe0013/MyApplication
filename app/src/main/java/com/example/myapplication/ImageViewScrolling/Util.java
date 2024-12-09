@@ -1,0 +1,46 @@
+package com.example.myapplication.ImageViewScrolling;
+
+public class Util {
+    public static final int CHINESE = 0;
+    public static final int JAPANESE = 1;
+    public static final int KOREAN = 2;
+    public static final int HONGKONG = 3;
+    public static final int THAI = 4;
+    public static final int VIETNAMESE = 5;
+    public static final int NANYANG = 6;
+    public static final int AMERICAN = 7;
+    public static final int ITALIAN = 8;
+    public static final int FEATURE_MEAL = 9;
+    public static final int BRUNCH = 10;
+    public static final int AFTERNOON_TEA = 11;
+    public static final int LIGHTFOOD = 12;
+    public static final int DESSERT = 13;
+    public static final int ICECREAM = 14;
+    public static final int DRINK = 15;
+    public static final int COFFEE = 16;
+    public static final int TEA = 17;
+    public static final int BOX_LUNCH = 18;
+    public static final int HEALTHY_MEAL = 19;
+    public static final int SUSHI = 20;
+    public static final int NOODLES = 21;
+    public static final int BEEF_NOODLES = 22;
+    public static final int RAMEN = 23;
+    public static final int FOODSTALL = 24;
+    public static final int BUFFET = 25;
+    public static final int PRIX_FIXE = 26;
+    public static final int STIR_FRIED = 27;
+    public static final int TEPPANYAKI = 28;
+    public static final int HOTPOT = 29;
+    public static final int STEAK = 30;
+    public static final int HAMBURGER = 31;
+    public static final int BBQ = 32;
+    public static final int CURRY = 33;
+    public static final int SEAFOOD = 34;
+    public static final int VEGAN = 35;
+    public static final int IZAKAYA = 36;
+    public static final int BISTRO = 37;
+    public static final int BAR = 38;
+    public static final int POSH_RESTAURANT = 39;
+    public static final int FAMILY_RESTAURANT = 40;
+    public static final int VIEW_RESTAURANT = 41;
+}
